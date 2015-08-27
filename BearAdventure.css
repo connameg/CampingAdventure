@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #fbe7b7;
+    color: #1f1104;
+}
+.header {
+    text-align: center;
+}
+.main {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 10px;
+    border: 4px solid #60330b;
+    border-radius: 30px;
+    background-color: #fdfaf2;
+}
+h1 {
+    /*font-family: 'Cherry Cream Soda', Verdana, sans-serif;*/
+    margin: 1rem;
+    font-family: 'Trade Winds', cursive;
+    font-size: 3rem;
+    color: #60330b;
+}
+h4 {
+    margin: 0;
+    padding: 5px;
+    font-size: 1.16rem;
+    font-weight: normal;
+    color: #60330b;
+}
+.centered {
+    text-align: center;
+}
+.container p {
+    margin: .5rem;
+    font-size: 1rem;
+}
+.menu {
+    margin: 0 auto;
+    max-width: 75%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.menu-text p {
+    display: inline;
+    font-size: .7rem;
+}
+a {
+    text-decoration: none;
+    color: #1f1104;
+}
+a:hover {
+    color: #a57d59;
+}
+
+@media (max-width: 500px) {
+    .h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .container p {
+        font-size: .85rem;
+    }
+}
+/* 2015 C.A. AMEGBLETOR | conncodes.tumblr.com */
